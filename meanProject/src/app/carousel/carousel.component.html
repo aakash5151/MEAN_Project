@@ -1,0 +1,30 @@
+<ngb-carousel *ngIf="images">
+    <ng-template ngbSlide>
+        <div class="picsum-img-wrapper">
+            <img [src]="images[0]" style="height:90vh;width:100vw" alt="Random first slide">
+        </div>
+        <div class="carousel-caption">
+            <h3>We Welcome You All</h3>
+            <p>“The best way to find yourself is to lose yourself in the service of others.”</p>
+        </div>
+    </ng-template>
+    <ng-template ngbSlide>
+        <div class="picsum-img-wrapper">
+            <img [src]="images[1]" style="height:90vh;width:100vw" alt="Random second slide">
+        </div>
+        <div class="carousel-caption">
+            <h3>We Welcome You All</h3>
+            <p>“Hospitality is simply an opportunity to show love and care”</p>
+        </div>
+    </ng-template>
+    <ng-template ngbSlide>
+        <div class="picsum-img-wrapper">
+            <img [src]="images[2]" style="height:90vh;width:100vw" alt="Random third slide">
+        </div>
+        <div class="carousel-caption">
+            <h3>We Welcome You All</h3>
+            <p>“People will forget what you said, forget what you did, but people will never forget how you made them
+                feel.”</p>
+        </div>
+    </ng-template>
+</ngb-carousel>
